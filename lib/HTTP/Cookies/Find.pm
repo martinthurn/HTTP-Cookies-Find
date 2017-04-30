@@ -1,8 +1,7 @@
 
-# $Id: Find.pm,v 1.415 2010-05-08 12:42:51 Martin Exp $
-
 package HTTP::Cookies::Find;
 
+use warnings;
 use strict;
 
 use base 'HTTP::Cookies';
@@ -18,7 +17,7 @@ use HTTP::Cookies::Netscape;
 use User;
 
 our
-$VERSION = do { my @r = (q$Revision: 1.415 $ =~ /\d+/g); sprintf "%d."."%03d" x $#r, @r };
+$VERSION = 1.416;
 
 =head1 NAME
 
