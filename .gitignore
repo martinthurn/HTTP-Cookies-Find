@@ -1,9 +1,10 @@
 !Build/
 *.bs
 *.o
+*.tar.gz
 .last_cover_stats
 /.build/
-/MANIFEST.bak
+MANIFEST
 /META.json
 /META.yml
 /META.yml
